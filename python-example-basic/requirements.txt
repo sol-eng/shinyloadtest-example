@@ -1,1 +1,2 @@
-shiny
+# Pinned to match the asset versions in recording.log (re-record the app if you change it)
+shiny==1.5.1

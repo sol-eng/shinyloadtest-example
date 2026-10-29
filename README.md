@@ -15,6 +15,10 @@ It has slides: <https://questionable.quarto.pub/improving-app-performance-with-p
 5. Run load tests 
 6. Analyze the results 
 
+### Recordings
+
+The `recording.log` files in `python-example-nba` and `r-example-geyser` were made again on 2026-10-29. The Node.js `shinyloadtest` made them (`shinyloadtest@next`, version 2.0.0-alpha.6). They replay with no errors against Posit Connect 2026.07.0. The README in each folder lists the package versions that its recording matches. The recording in `python-example-basic` was not made again.
+
 ## Additional resources 
 
 There are links to various additional and recommended resources sprinkled throughout, however here a few overview level recommendations: 
