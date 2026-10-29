@@ -1,8 +1,11 @@
+# shiny and shinywidgets are pinned to match the asset versions in recording.log
+# (re-record the app if you change them)
+shiny==1.5.1
 pandas
 numpy
 nba_api
 plotly
-shinywidgets
+shinywidgets==0.7.1
 scipy
 
 # websockets 16.0+ breaks anywidget initialization
