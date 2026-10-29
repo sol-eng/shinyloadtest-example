@@ -9,7 +9,7 @@ It has slides: <https://questionable.quarto.pub/improving-app-performance-with-p
 ## Process
 
 1. Deploy application to Connect
-2. Download shinycannon jar file
+2. Install shinyloadtest (Node.js 20+, `npx shinyloadtest@next`)
 3. Add environment variable
 4. Create "Recording" of a typical user's interaction
 5. Run load tests 
@@ -33,10 +33,11 @@ Simulate runtime settings and events: [Shimmer Shiny Sizing](https://colorado.rs
 
 ### shinyloadtest
 
- - Shinyloadtest package documentation: <https://rstudio.github.io/shinyloadtest/>
- - Shinyloadtest git repo: <https://github.com/rstudio/shinyloadtest/> 
+ - shinyloadtest (Node.js CLI) repo: <https://github.com/posit-dev/shinyloadtest>
+ - shinyloadtest npm package: <https://www.npmjs.com/package/shinyloadtest>
+ - shinyloadtest R package documentation (custom analysis of results): <https://rstudio.github.io/shinyloadtest/>
+ - shinyloadtest R package repo: <https://github.com/rstudio/shinyloadtest/> 
  - Connect specific article: <https://rstudio.github.io/shinyloadtest/articles/load-testing-authenticated-apps.html>
- - Installing shinycannon: https://rstudio.github.io/shinyloadtest/articles/shinycannon.html#installation 
  - Analyzing the results: <https://rstudio.github.io/shinyloadtest/articles/analyzing-load-test-logs.html> 
 
 ### shinytest2 
